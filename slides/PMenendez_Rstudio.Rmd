@@ -1,0 +1,348 @@
+---
+title: ""
+week: ""
+subtitle: "An inclusive solution for teaching and learning R during the COVID pandemic"
+author: "Dr Patricia Menéndez"
+date: ""
+pdflink: ""
+bgimg: "images/daniel-olah-pCcGpVsOHoo-unsplash.jpg"
+output:
+  xaringan::moon_reader:
+    css:
+      - ninjutsu 
+      - "assets/animate.css"
+      - "assets/monash-logo.css"
+      - "assets/monash-brand.css"
+      - "assets/monash-fonts.css"
+      - "assets/styles.css" # small improvements
+      - "assets/custom.css" # add your own CSS here!
+    self_contained: false 
+    seal: false 
+    chakra: 'libs/remark-latest.min.js'
+    lib_dir: libs
+    includes:
+      in_header: "assets/custom.html"
+    mathjax: "assets/mathjax-local/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+    nature:
+      highlightStyle: github 
+      highlightLanguage: r 
+      highlightLines: true
+      highlightSpans: false 
+      countIncrementalSlides: false
+      slideNumberFormat: '%current%/%total%'
+      navigation:
+        scroll: false 
+        touch: true
+        click: false
+      ratio: '16:9'
+---
+
+```{r titleslide, child="components/titleslide.Rmd"}
+```
+```{r setup, include=FALSE}
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+library(emo)
+opts_chunk$set(echo = FALSE,   
+               message = FALSE,
+               warning = FALSE,
+               collapse = TRUE,
+               fig.height = 4,
+               fig.width = 8,
+               fig.align = "center",
+               cache = FALSE)
+# options(htmltools.dir.version = FALSE)
+```
+
+---
+# Teaching in times of COVID
+
+<br>
+
+.pull-left[
+Instead of usingclassooms `r emo::ji("point")`
+```{r out.width = '120%', echo = FALSE}
+include_graphics("images/classroom.png")
+```
+
+`r emo::ji("point")`
+<br>
+Remote and online learning 
+ 
+
+]
+--
+.pull-right[
+
+```{r out.width = '50%', echo = FALSE}
+include_graphics("images/door.jpeg")
+```
+Common door to learning
+
+]
+
+
+---
+# Student cohort and units
+<br>
+
+**Students**
+
+- Both undergraduate and graduate.
+- Classroom size range from about 300 to 60 students.
+
+<br>
+**Challenges**
+
+- Different backgrounds and coding levels.
+
+<br>
+**Units**
+
+
+- Introduction to data analysis  
+```{r out.width = '10%', echo = FALSE, align = "right"}
+include_graphics("images/R.png")
+```
+- Reproducible and Collaborative practices
+
+
+
+
+---
+# Goals
+
+**Teaching and Learning Experience**
+<br>
+
+- Efficient and effective experience
+- Unify student learning
+- Remove the installation/usage burdens
+- Remote/hybrid learning
+]
+<br>
+**Pedagogy**
+
+- Active learning and constructivism
+- Authentic learning: Usage of practical real examples
+
+
+```{r out.width = '10%', echo = FALSE, align = "right"}
+include_graphics("images/hat.png")
+```
+.small[
+Cartoon by Hiclipart.com
+]
+
+
+---
+# Approach
+<br><br>
+
+.pull-left[
+* Programming language
+]
+.pull-left[
+```{r out.width = '20%', echo = FALSE}
+knitr::include_graphics("images/R.png")
+```
+]
+
+.pull-left[
+ * Integrated development environment (IDE) 
+]
+
+.pull-left[
+```{r out.width = '30%', echo = FALSE}
+knitr::include_graphics("images/RStudio-Logo-Flat.png")
+```
+]
+
+<br><br><br>
+
+.content-box-neutral[
+  Integrated development environment (IDE) in the **cloud**
+
+
+```{r out.width = '30%', echo = FALSE}
+knitr::include_graphics("images/rstudiocloud.png")
+```
+
+]
+
+
+
+
+
+---
+# Organization and delivery: Lectures
+<br>
+
+**Lectures**
+
+<br>
+
+.pull-left[
+```{r out.width = '110%', echo = FALSE}
+knitr::include_graphics("images/lectures2.png")
+```
+]
+
+.pull-right[
+```{r out.width = '120%', echo = FALSE}
+knitr::include_graphics("images/lectures1.png")
+```
+]
+
+
+---
+# Organization and delivery: Tutorials
+<br>
+
+**Tutorials**
+
+.pull-left[
+```{r out.width = '90%', echo = FALSE}
+knitr::include_graphics("images/tut1.png")
+```
+]
+
+.pull-right[
+```{r out.width = '90%', echo = FALSE}
+knitr::include_graphics("images/tut2.png")
+```
+]
+
+.content-box-neutral[
+```{r out.width = '70%', echo = FALSE}
+knitr::include_graphics("images/rstudiocloudspace.png")
+```
+]
+
+---
+# Rstudio Cloud: Tutorials
+<br>
+.content-box-neutral[
+```{r out.width = '100%', echo = FALSE}
+knitr::include_graphics("images/example.png")
+```
+]
+
+
+---
+# Teaching team
+
+<br>
+.content-box-neutral[
+- Chief Examiner / lecturer
+- Group of fantastic teaching assistants
+]
+
+**Communication / Prep** 
+.content-box-neutral[
+- Slack channel
+- TA dedicated Rstudio Cloud space + Unit space:
+    - Unit space admin share with Head Teaching Associate.
+    - TA Rstudio Cloud space: Everyone has admin access.
+ ]   
+    
+---
+# Teaching associates RStudio Cloud space  
+
+<br>
+
+```{r out.width = '100%', echo = FALSE}
+knitr::include_graphics("images/TAspace.png")
+```
+    
+    - Unit space --> Contributors
+    
+    
+---
+class: transition
+# Assessment
+
+<br>
+.pull-left[
+- ## Assignments
+- ## Group work
+- ## Semester assessment
+]
+.pull-right[
+```{r out.width = '100%', echo = FALSE}
+knitr::include_graphics("images/ssc-combined-graduate-level-exam-ssc-cgl-·-2017-paper-common-proficiency-test-electronic-assessment-online-exam-7e520de85b4e8d413ca75210aa492c9b.png")
+```
+]
+
+
+---
+# Assignments
+
+- Launch and submitted via learning management system (Moodle)
+
+```{r out.width = '80%', echo = FALSE}
+knitr::include_graphics("images/LMS.png")
+```
+--
+<br>
+- RStudio Cloud Assignment space
+
+.content-box-neutral[
+```{r out.width = '80%', echo = FALSE}
+knitr::include_graphics("images/assignment.png")
+```
+]
+
+
+---
+# Semester Assessment
+<br>
+.pull-left[
+.content-box-neutral[
+- Timed exercise (2hrs).
+- Launch and submitted via learning management system (Moodle).
+- Exercise in Rstudio Cloud.
+- Zoom call open for **technical support**.
+- Teaching team on Zoom call/ slack channel.
+]
+]
+.pull-right[
+```{r out.width = '100%', echo = FALSE, align = "left"}
+include_graphics("images/rstudiocloud.png")
+```
+
+```{r out.width = '40%', echo = FALSE, align = "center"}
+include_graphics("images/laptop-computer-icons-computer-monitors-desktop-computers-laptop-png-vector-5495ee1b5c4141f9b9860477ebc62834.png")
+```
+
+```{r out.width = '40%', echo = FALSE, align = "right"}
+include_graphics("images/rstudio-logo.png")
+```
+]
+
+---
+# Things to keep in mind
+
+<br>
+
+- Accessibility
+- Rstudio Cloud users/access
+- Connection between Rstudio Cloud - Rstudio
+- Emphasize R projects
+
+
+---
+background-image: url("images/zane-persaud-qFn515nfhDs-unsplash.jpg")
+background-position: 1% 60%
+## .black[It is like fine dining, not only about the food but about the] .black[experience!!]
+.small[Photo by <a href="https://unsplash.com/@zapsizzle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Zane Persaud</a> on <a href="https://unsplash.com/s/photos/dinner?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>]
+  
+
+---
+
+```{r endslide, child="components/endslide.Rmd"}
+```
+
+
+
