@@ -61,14 +61,14 @@ opts_chunk$set(echo = FALSE,
 <br>
 
 .pull-left[
-Instead of usingclassooms `r emo::ji("point")[3]`
+Instead of using classrooms `r emo::ji("backhand index pointing down")`
 ```{r out.width = '120%', echo = FALSE}
 include_graphics("images/classroom.png")
 ```
 
-`r emo::ji("point")`
+`r emo::ji("backhand index pointing down")`
 <br>
-Remote and online learning 
+Remote and online learning `r emo::ji("backhand index pointing right")`
  
 
 ]
@@ -78,7 +78,7 @@ Remote and online learning
 ```{r out.width = '50%', echo = FALSE}
 include_graphics("images/door.jpeg")
 ```
-Common door to learning
+Common entrance to learning
 
 ]
 
@@ -90,12 +90,12 @@ Common door to learning
 **Students**
 
 - Both undergraduate and graduate.
-- Classroom size range from about 300 to 60 students.
+- Classroom size range from about ~300 to 60~80 students.
 
 <br>
 **Challenges**
 
-- Different backgrounds and coding levels.
+- Different knowledge and coding levels.
 
 <br>
 **Units**
@@ -112,23 +112,25 @@ include_graphics("images/R.png")
 
 ---
 # Goals
+<br>
 
 **Teaching and Learning Experience**
 <br>
-
+.content-box-light[
 - Efficient and effective experience
 - Unify student learning
 - Remove the installation/usage burdens
 - Remote/hybrid learning
 ]
+
 <br>
 **Pedagogy**
-
+.content-box-light[
 - Active learning and constructivism
 - Authentic learning: Usage of practical real examples
+]
 
-
-```{r out.width = '10%', echo = FALSE, align = "right"}
+```{r out.width = '20%', echo = FALSE, align = "right"}
 include_graphics("images/hat.png")
 ```
 .small[
@@ -142,24 +144,25 @@ Cartoon by Hiclipart.com
 
 .pull-left[
 * Programming language
+
+* Integrated development environment (IDE) 
 ]
-.pull-left[
-```{r out.width = '20%', echo = FALSE}
+.pull-right[
+```{r out.width = '10%', echo = FALSE}
 knitr::include_graphics("images/R.png")
 ```
-]
 
-.pull-left[
- * Integrated development environment (IDE) 
-]
-
-.pull-left[
 ```{r out.width = '30%', echo = FALSE}
 knitr::include_graphics("images/RStudio-Logo-Flat.png")
 ```
 ]
 
-<br><br><br>
+<br><br>
+
+`r emo::ji("right arrow curving down")` `r emo::ji("right arrow curving down")  `  
+
+<br />
+
 
 .content-box-neutral[
   Integrated development environment (IDE) in the **cloud**
@@ -172,6 +175,17 @@ knitr::include_graphics("images/rstudiocloud.png")
 ]
 
 
+---
+# Learning and empowering
+
+<br><br>
+- Use Rstudio Cloud the entire semester
+
+- Use Rstudio Cloud the first 4 weeks so that students are confident to use Rstudio in their local machines.
+
+```{r out.width = '20%', echo = FALSE}
+knitr::include_graphics("images/thumb-signal-stock-photography-give-a-thumbs-up-ed95c290f302adf09b441dd0d6099403.png")
+```
 
 
 
