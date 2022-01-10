@@ -61,7 +61,7 @@ opts_chunk$set(echo = FALSE,
 <br>
 
 .pull-left[
-Instead of usingclassooms `r emo::ji("point")`
+Instead of usingclassooms `r emo::ji("point")[3]`
 ```{r out.width = '120%', echo = FALSE}
 include_graphics("images/classroom.png")
 ```
