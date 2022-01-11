@@ -20,10 +20,10 @@ count: false
 
  *`r rmarkdown::metadata$author`*
 
-Department of Econometrics and Business Statistics, Monash University, Melbourne, Australia
-
+ *`r rmarkdown::metadata$department`*
  *`r rmarkdown::metadata$email`*
-
+ 
+<br>
 
 ]
 
