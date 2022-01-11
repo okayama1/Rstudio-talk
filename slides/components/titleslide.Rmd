@@ -22,10 +22,9 @@ count: false
 
 Department of Econometrics and Business Statistics, Monash University, Melbourne, Australia
 
+ *`r rmarkdown::metadata$email`*
 
-`r rmarkdown::metadata$date`
 
-<br>
 ]
 
 

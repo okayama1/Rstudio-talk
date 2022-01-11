@@ -24,17 +24,19 @@ Department of Econometrics and Business Statistics<br>
 ]
 
 <br />
-This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+The slides can be found in XXX and the work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
+patricia.menendez@monash.edu
+PM_maths
 
 ]]
 
 
 
 <div class="column transition monash-m-new delay-1s" style="clip-path:url(#swipe__clip-path);">
-<div class="background-image" style="background-image:url('images/large.png');background-position: center;background-size:cover;margin-left:3px;">
+<div class="background-image" style="background-image:url('images/images/daniel-olah-pCcGpVsOHoo-unsplash.jpgg');background-position: center;background-size:cover;margin-left:3px;">
 <svg class="clip-svg absolute">
 <defs>
 <clipPath id="swipe__clip-path" clipPathUnits="objectBoundingBox">

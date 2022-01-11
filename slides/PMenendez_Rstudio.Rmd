@@ -3,8 +3,9 @@ title: ""
 week: ""
 subtitle: "An inclusive solution for teaching and learning R during the COVID pandemic"
 author: "Dr Patricia Menéndez"
+email: "patricia.menendez@monash.edu"
 date: ""
-pdflink: ""
+pdflink: "PatriciaMenendez_talk.pdf"
 bgimg: "images/daniel-olah-pCcGpVsOHoo-unsplash.jpg"
 output:
   xaringan::moon_reader:
@@ -14,8 +15,8 @@ output:
       - "assets/monash-logo.css"
       - "assets/monash-brand.css"
       - "assets/monash-fonts.css"
-      - "assets/styles.css" # small improvements
-      - "assets/custom.css" # add your own CSS here!
+      - "assets/styles.css" 
+      - "assets/custom.css" 
     self_contained: false 
     seal: false 
     chakra: 'libs/remark-latest.min.js'
@@ -44,6 +45,7 @@ library(tidyverse)
 library(knitr)
 library(kableExtra)
 library(emo)
+library(fontawesome)
 opts_chunk$set(echo = FALSE,   
                message = FALSE,
                warning = FALSE,
@@ -61,24 +63,27 @@ opts_chunk$set(echo = FALSE,
 <br>
 
 .pull-left[
-Instead of using classrooms `r emo::ji("backhand index pointing down")`
+Instead of teaching in classrooms `r emo::ji("backhand index pointing down")`
+
+<br>
 ```{r out.width = '120%', echo = FALSE}
 include_graphics("images/classroom.png")
 ```
-
-`r emo::ji("backhand index pointing down")`
 <br>
-Remote and online learning `r emo::ji("backhand index pointing right")`
+
+`r emo::ji("backhand index pointing right")` We moved to remote and online teaching and learning.
  
 
 ]
 --
 .pull-right[
 
-```{r out.width = '50%', echo = FALSE}
-include_graphics("images/door.jpeg")
+```{r out.width = '100%', echo = FALSE}
+include_graphics("images/todd-quackenbush-IClZBVw5W5A-unsplash.jpg")
 ```
-Common entrance to learning
+<br>
+Tools to facilitate the task! .small[Photo by <a href="https://unsplash.com/@toddquackenbush?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Todd Quackenbush</a> on <a href="https://unsplash.com/s/photos/tools?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  ]
 
 ]
 
@@ -88,23 +93,27 @@ Common entrance to learning
 <br>
 
 **Students**
-
+ 
 - Both undergraduate and graduate.
 - Classroom size range from about ~300 to 60~80 students.
 
 <br>
 **Challenges**
 
-- Different knowledge and coding levels.
+- Different knowledge levels and coding experience.
+- Remote/online learning.
 
 <br>
 **Units**
 
 
 - Introduction to data analysis  
-```{r out.width = '10%', echo = FALSE, align = "right"}
+.pull-right[
+```{r out.width = '20%', echo = FALSE, align = "right"}
 include_graphics("images/R.png")
 ```
+]
+
 - Reproducible and Collaborative practices
 
 
@@ -118,7 +127,7 @@ include_graphics("images/R.png")
 <br>
 .content-box-light[
 - Efficient and effective experience
-- Unify student learning
+- Unifying learning
 - Remove the installation/usage burdens
 - Remote/hybrid learning
 ]
@@ -179,18 +188,23 @@ knitr::include_graphics("images/rstudiocloud.png")
 # Learning and empowering
 
 <br><br>
-- Use Rstudio Cloud the entire semester
+- Use Rstudio Cloud for the entire semester
 
-- Use Rstudio Cloud the first 4 weeks so that students are confident to use Rstudio in their local machines.
+- Use Rstudio Cloud the first 4 weeks so that students are confident to install and use R and Rstudio in their local machines.
 
 ```{r out.width = '20%', echo = FALSE}
 knitr::include_graphics("images/thumb-signal-stock-photography-give-a-thumbs-up-ed95c290f302adf09b441dd0d6099403.png")
 ```
 
-
+---
+# Organization and delivery
+<br>
+```{r out.width = '100%', echo = FALSE}
+knitr::include_graphics("images/organization.png")
+```
 
 ---
-# Organization and delivery: Lectures
+#  Lectures
 <br>
 
 **Lectures**
@@ -209,9 +223,15 @@ knitr::include_graphics("images/lectures1.png")
 ```
 ]
 
+---
+# Organization and delivery
+<br>
+```{r out.width = '100%', echo = FALSE}
+knitr::include_graphics("images/organization.png")
+```
 
 ---
-# Organization and delivery: Tutorials
+#  Tutorials
 <br>
 
 **Tutorials**
@@ -250,15 +270,15 @@ knitr::include_graphics("images/example.png")
 <br>
 .content-box-neutral[
 - Chief Examiner / lecturer
-- Group of fantastic teaching assistants
+- Group of fantastic teaching associates!
 ]
 
 **Communication / Prep** 
 .content-box-neutral[
 - Slack channel
 - TA dedicated Rstudio Cloud space + Unit space:
-    - Unit space admin share with Head Teaching Associate.
-    - TA Rstudio Cloud space: Everyone has admin access.
+     * TA Rstudio Cloud space: Everyone has admin access.
+     * Unit space admin share with Head Teaching Associate.
  ]   
     
 ---
@@ -292,7 +312,7 @@ knitr::include_graphics("images/ssc-combined-graduate-level-exam-ssc-cgl-·-2017
 
 ---
 # Assignments
-
+<br>
 - Launch and submitted via learning management system (Moodle)
 
 ```{r out.width = '80%', echo = FALSE}
@@ -336,27 +356,41 @@ include_graphics("images/rstudio-logo.png")
 ]
 
 ---
-# Things to keep in mind
+background-image: url("images/error-420-oM9d97IWgss-unsplash.jpg")
+# Some thoughts
 
-<br>
+<br><br>
 
-- Accessibility
-- Rstudio Cloud users/access
-- Connection between Rstudio Cloud - Rstudio
-- Emphasize R projects
-
+.content-box-neutral[
+- Rstudio Cloud accessibility: remove installation burden/diversity of operating systems.
+- Facilitate remote and online learning.
+- Rstudio Cloud users/access.
+- Connection between Rstudio Cloud - Rstudio.
+- R projects!
+- A learning, and also empowering, tool for users in their journey to learning R.
+]
 
 ---
 background-image: url("images/zane-persaud-qFn515nfhDs-unsplash.jpg")
 background-position: 1% 60%
+## My own view: Teaching and Learning Experience
+
 ## .black[It is like fine dining, not only about the food but about the] .black[experience!!]
+
+ <br>
+.content-box-neutral[  
+
+**Email:**  *`r rmarkdown::metadata$email`*
+
+**Twitter:** @PM_maths
+
+**Slides:**   
+]  
+
+## Many thanks!
+
 .small[Photo by <a href="https://unsplash.com/@zapsizzle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Zane Persaud</a> on <a href="https://unsplash.com/s/photos/dinner?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>]
-  
 
----
-
-```{r endslide, child="components/endslide.Rmd"}
-```
 
 
 
