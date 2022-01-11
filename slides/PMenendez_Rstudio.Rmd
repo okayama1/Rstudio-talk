@@ -5,6 +5,7 @@ subtitle: "An inclusive solution for teaching and learning R during the COVID pa
 author: "Dr Patricia Menéndez"
 email: "patricia.menendez@monash.edu"
 date: ""
+department: "Department of Econometrics and Business Statistics Monash University, Melbourne, Australia"
 pdflink: "PatriciaMenendez_talk.pdf"
 bgimg: "images/daniel-olah-pCcGpVsOHoo-unsplash.jpg"
 output:
@@ -290,7 +291,7 @@ knitr::include_graphics("images/example.png")
 knitr::include_graphics("images/TAspace.png")
 ```
     
-    - Unit space --> Contributors
+    - Unit space --> Contributors/moderators
     
     
 ---
@@ -335,9 +336,9 @@ knitr::include_graphics("images/assignment.png")
 .pull-left[
 .content-box-neutral[
 - Timed exercise (2hrs).
-- Launch and submitted via learning management system (Moodle).
-- Exercise in Rstudio Cloud.
-- Zoom call open for **technical support**.
+- Launched and submitted via learning management system (Moodle).
+- Exercise in Rstudio Cloud unit space.
+- Zoom call opened for **technical support**.
 - Teaching team on Zoom call/ slack channel.
 ]
 ]
