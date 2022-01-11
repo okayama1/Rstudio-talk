@@ -355,6 +355,8 @@ include_graphics("images/rstudio-logo.png")
 ```
 ]
 
+
+
 ---
 background-image: url("images/error-420-oM9d97IWgss-unsplash.jpg")
 # Some thoughts
@@ -370,6 +372,10 @@ background-image: url("images/error-420-oM9d97IWgss-unsplash.jpg")
 - A learning, and also empowering, tool for users in their journey to learning R.
 ]
 
+<br>
+.small[Photo by <a href="https://unsplash.com/@error420?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Error 420 📷</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>]
+  ]
+
 ---
 background-image: url("images/zane-persaud-qFn515nfhDs-unsplash.jpg")
 background-position: 1% 60%
@@ -384,7 +390,7 @@ background-position: 1% 60%
 
 **Twitter:** @PM_maths
 
-**Slides:**   
+**Slides:** https://bit.ly/PMenendez_RstudioCloud  
 ]  
 
 ## Many thanks!

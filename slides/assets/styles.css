@@ -86,7 +86,7 @@ h2 {
 }
 a {
   /*color: #027EB6;*/
-  color: var(--color-deep-orange);
+  color: #808080 /*var(--color-deep-orange);*/
   text-decoration: underline;
 }
 
