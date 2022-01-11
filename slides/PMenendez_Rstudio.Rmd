@@ -153,9 +153,9 @@ Cartoon by Hiclipart.com
 <br><br>
 
 .pull-left[
-* Programming language
+* Programming language:
 
-* Integrated development environment (IDE) 
+* Integrated development environment (IDE): 
 ]
 .pull-right[
 ```{r out.width = '10%', echo = FALSE}
@@ -189,7 +189,7 @@ knitr::include_graphics("images/rstudiocloud.png")
 # Learning and empowering
 
 <br><br>
-- Use Rstudio Cloud for the entire semester
+- Use Rstudio Cloud for the entire semester.
 
 - Use Rstudio Cloud the first 4 weeks so that students are confident to install and use R and Rstudio in their local machines.
 
@@ -278,8 +278,8 @@ knitr::include_graphics("images/example.png")
 .content-box-neutral[
 - Slack channel
 - TA dedicated Rstudio Cloud space + Unit space:
-     * TA Rstudio Cloud space: Everyone has admin access.
-     * Unit space admin share with Head Teaching Associate.
+     * TA Rstudio Cloud space: Everyone has admin access
+     * Unit space admin share with Head Teaching Associate
  ]   
     
 ---
@@ -314,7 +314,7 @@ knitr::include_graphics("images/ssc-combined-graduate-level-exam-ssc-cgl-·-2017
 ---
 # Assignments
 <br>
-- Launch and submitted via learning management system (Moodle)
+- Launched and submitted via learning management system (Moodle)
 
 ```{r out.width = '80%', echo = FALSE}
 knitr::include_graphics("images/LMS.png")
